@@ -11,7 +11,7 @@ import com.daimajia.androidanimations.library.YoYo;
 import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.nineoldandroids.animation.Animator;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.qxf.zhihudaily.HomeActivity;
+import com.qxf.zhihudaily.home.HomeActivity;
 import com.qxf.zhihudaily.R;
 import com.qxf.zhihudaily.common.ActivityUtils;
 

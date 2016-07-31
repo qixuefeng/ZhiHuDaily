@@ -1,6 +1,7 @@
 package com.qxf.zhihudaily.net;
 
 import com.google.gson.Gson;
+import com.qxf.zhihudaily.home.HomeApi;
 import com.qxf.zhihudaily.splash.SplashApi;
 
 import okhttp3.OkHttpClient;
@@ -45,6 +46,10 @@ public class NetClient {
 
     public SplashApi getSplashApi() {
         return retrofit.create(SplashApi.class);
+    }
+
+    public HomeApi getHomeApi() {
+        return retrofit.create(HomeApi.class);
     }
 
 }
